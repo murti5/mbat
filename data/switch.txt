@@ -1,0 +1,10 @@
+                set sw = %a% 
+                if %sw% ==  1 ( 
+                        
+                           
+                ) else if %sw% ==  2 (
+                        
+                        
+                ) else ( 
+                        
+                ) 

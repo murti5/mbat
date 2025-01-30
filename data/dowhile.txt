@@ -1,0 +1,6 @@
+:loop
+if %counter% LSS 5 (
+  echo Counter is: %counter%
+  set /a counter+=1
+  goto loop
+)

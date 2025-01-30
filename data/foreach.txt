@@ -1,0 +1,1 @@
+FOR %%variable IN ( File_directory_01 File_directory_02 ) DO command

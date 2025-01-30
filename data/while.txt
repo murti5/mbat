@@ -1,0 +1,10 @@
+:while 
+echo Iteration number: %counter%
+if %counter% lss 10 goto :while
+
+    :loop  
+            if  %varloop%  == 15 goto :loop_end 
+            mouse click 
+            set /a varloop += 1 
+            goto :loop 
+    :loop_end  

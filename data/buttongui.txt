@@ -1,0 +1,7 @@
+        batbox /g 0 0 /c 0xe0 /d "hi"  
+        
+        getinput /m   1 0 20 2 /h    b0 
+              
+        if "%errorlevel%" ==  "1" ( 
+
+                ) 

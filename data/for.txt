@@ -1,0 +1,3 @@
+	for /f "tokens=* delims=" %%x in (%file0%) do ( set sentence=%%x 
+		call :beta
+	)

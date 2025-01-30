@@ -1,0 +1,7 @@
+	yaz 25819
+	YAZ {TAB}
+	timeout /t 1 >nul  
+	nircmd.exe sendkeypress shift+E 
+	timeout /t 1 >nul   
+	yaz m149/
+	YAZ {ENTER} 

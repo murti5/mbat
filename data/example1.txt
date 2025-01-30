@@ -1,0 +1,9 @@
+        @echo off 
+        SetLocal EnableDelayedExpansion 
+
+        :menu  
+                title  hello my window name 
+                cmdwiz setwindowpos  0 0 	 
+                mode  40,12 
+                color  f 
+                cls 

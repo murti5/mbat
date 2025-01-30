@@ -1,0 +1,12 @@
+timeout /t 5
+set a=0
+
+:loop
+set /a a=%a%+1
+if %a%==130 goto :end
+nircmd sendkeypress down
+nircmd sendkeypress end
+nircmd sendkeypress ctrl+v
+goto :loop
+
+:end

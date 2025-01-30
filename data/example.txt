@@ -1,0 +1,7 @@
+        @echo off 
+        SetLocal EnableDelayedExpansion 
+            
+        :menu  
+                title  hello my window name  
+                color  f 
+                cls 
